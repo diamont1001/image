@@ -1,2 +1,2 @@
 # image
-utils for image, like mosaic、scale
+utils for image, like mosaic、gray
