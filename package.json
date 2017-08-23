@@ -1,0 +1,39 @@
+{
+  "name": "image",
+  "version": "1.0.0",
+  "description": "utils for image, like mosaic、scale",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "webpack -w --debug",
+    "dist": "webpack -p",
+    "lint": "eslint index.js lib/*.js",
+    "test": "npm run lint && karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diamont1001/image.git"
+  },
+  "keywords": [
+    "image",
+    "mosaic",
+    "scale"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diamont1001/image/issues"
+  },
+  "homepage": "https://github.com/diamont1001/image#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "eslint": "^4.5.0",
+    "eslint-config-jr": "^1.0.4",
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta name="description" content="demo for image">
+    <link href="./index.css" rel="stylesheet">
+  <title>image test</title>
+</head>
+<body>
+    <div><label>原图</label><br/><img class="img-demo" id="imgInput" src="./imgs/girl.jpg"/></div>
+    <div><label>高斯模糊（3, 1）</label><br/><img class="img-demo" id="outputGaussBlur" src=""/></div>
+    <div><label>灰度变换</label><br/><img class="img-demo" id="outputGray" src=""/></div>
+    <div><label>黑白图片（128）</label><br/><img class="img-demo" id="outputBlackAndWhite128" src=""/></div>
+    <div><label>黑白图片（156）</label><br/><img class="img-demo" id="outputBlackAndWhite156" src=""/></div>
+    <div><label>图像反色</label><br/><img class="img-demo" id="outputReverse" src=""/></div>
+    <div><label>去掉红色</label><br/><img class="img-demo" id="outputRgbaR" src=""/></div>
+    <div><label>去掉绿色</label><br/><img class="img-demo" id="outputRgbaG" src=""/></div>
+    <div><label>去掉蓝色</label><br/><img class="img-demo" id="outputRgbaB" src=""/></div>
+    <div><label>半透明</label><br/><img class="img-demo" id="outputRgbaA" src=""/></div>
+    <div><label>马赛克（5）</label><br/><img class="img-demo" id="outputMosaic" src=""/></div>
+    <div><label>油画（15）</label><br/><img class="img-demo" id="outputOils" src=""/></div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+    <script type="text/javascript" src="./jr-image.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
