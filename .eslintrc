@@ -3,12 +3,8 @@
         "jr"
     ],
     "rules": {
-        "no-console": 0,
-        "indent": ["error", 4],
-        "no-bitwise": 0
     },
     "globals": {
-        "QRErrorCorrectLevel": true,
-        "QRCode": true
+      "__DEV__": true
     }
 }
